@@ -1,0 +1,80 @@
+html,
+body {
+  color: #c99a46;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 16px;
+  background-color: rgb(79, 62, 55);
+}
+body {
+  font-family: "Comic Neue";
+  justify-content: center;
+  box-sizing: border-box;
+}
+.update {
+  flex: 1;
+  top: 5px;
+  right: 15px;
+  position: absolute;
+  font-family: "Fira Code";
+  font-size: 12px;
+}
+
+.container {
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portrait {
+  border-radius: 50%;
+  border: 2px solid #c99a46;
+  width: 9rem;
+  height: 9rem;
+  align-items: center;
+  user-select: none;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+  font-style: italic;
+  margin: 5px;
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+  display: block;
+}
+
+nav > a {
+  color: #ffffff;
+  margin-top: 0.5rem;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  margin-top: 25px;
+  bottom: 15px;
+  color: ivory;
+  text-align: center;
+  font-size: 13px;
+}
+
+footer > div > a {
+  font-style: italic;
+  text-decoration: none;
+  color: ivory;
+}
