@@ -75,19 +75,8 @@ nav > a {
   flex-direction: column;
 }
 
-.content > ul {
-  margin: 0;
-  color: #ffffff;
-  list-style-type: decimal;
-  margin: 3px;
-}
-
-.content > ul > li {
+.content > p{
   margin: 6px;
-}
-
-.content > ul > li > a {
-  color: #ffffff;
 }
 
 a {
@@ -112,7 +101,6 @@ hr {
 }
 
 footer {
-  position: relative;
   margin-top: 25px;
   bottom: 15px;
   color: ivory;
