@@ -24,6 +24,7 @@ body {
 
 .container {
   justify-content: center;
+  margin-top: 10%;
 }
 
 header {
@@ -44,24 +45,70 @@ header {
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: 900;
-  font-style: italic;
   margin: 5px;
+}
+
+.title > a {
+  color: #c99a46;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-style: italic;
   align-items: center;
 }
 
 nav {
   text-align: center;
   display: block;
+  margin: 6px;
 }
 
 nav > a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content > ul {
+  margin: 0;
+  color: #ffffff;
+  list-style-type: decimal;
+  margin: 3px;
+}
+
+.content > ul > li {
+  margin: 6px;
+}
+
+.content > ul > li > a {
+  color: #ffffff;
+}
+
+a {
   margin-top: 0.5rem;
   margin-left: 0.5em;
   margin-right: 0.5em;
   text-decoration: none;
+}
+
+hr {
+  width: 42%;
+  margin: 0 auto;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(
+    to right,
+    rgb(33, 33, 33),
+    red,
+    rgb(33, 33, 33)
+  );
 }
 
 footer {
@@ -77,4 +124,9 @@ footer > div > a {
   font-style: italic;
   text-decoration: none;
   color: ivory;
+}
+
+*::selection {
+  text-shadow: none;
+  background: rgba(14, 101, 166, 28);
 }

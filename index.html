@@ -19,6 +19,7 @@
     />
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/special.css" />
     <!--特效JavaScript-->
     <script type="text/javascript" src="/js/clicklove.js"></script>
@@ -41,19 +42,31 @@
     <div class="container">
       <main>
         <header>
-          <img class="portrait" draggable="false" src="/images/portrait.jpg" alt="Portrait" />
-          <p class="title">Hi! Welcome to PBS.</p>
+          <img
+            class="portrait"
+            draggable="false"
+            src="/images/portrait.jpg"
+            alt="Portrait"
+          />
+          <p class="title"><a href="#">Hi! Welcome to PBS.</a></p>
+          <nav>
+            <a href="/index.html">Home</a>
+            <span>|</span>
+            <a href="/archives">Articles</a>
+            <span>|</span>
+            <a href="/about">About</a>
+          </nav>
         </header>
-        <nav>
-          <a href="/index.html">Home</a>
-          <span>|</span>
-          <a href="/archives">Archives</a>
-          <span>|</span>
-          <a href="/categories">Categories</a>
-          <span>|</span>
-          <a href="/about">About</a>
-        </nav>
+        <div class="content">
+          <span>What's New</span>
+          <ul>
+            <li><a href="#">Wispeeer User Guide</a></li>
+            <li><a href="#">Github Repos Backup in Go</a></li>
+            <li><a href="#">IDEA配置SSM项目</a></li>
+          </ul>
+        </div>
       </main>
+      <hr />
       <footer>
         <div class="footer-inner">
           <a
@@ -63,14 +76,14 @@
             ><i class="fa fa-fw fa-creative-commons"></i>CC BY-NC-SA 4.0</a
           >
           <div class="copyright">
-            © 2017 – <span itemprop="copyrightYear">2020</span>
+            © 2017 – <span itemprop="copyrightYear">2021</span>
             <span class="with-love" id="animate">
               <i class="fa fa-heart"></i>
             </span>
             <span class="author" itemprop="copyrightHolder">Mardan · M</span>
           </div>
           <div class="footer-custom">
-            Copyright © 2017 - 2020 Mardan. All Rights Reserved.
+            Copyright © 2017 - 2021 Mardan. All Rights Reserved.
           </div>
         </div>
       </footer>
